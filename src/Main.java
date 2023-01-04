@@ -2,19 +2,18 @@ import java.lang.String;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Ddd(22,22));
-        System.out.println(Ddd(21,26));
-        System.out.println(Ddd(27,22));
-        System.out.println(Ddd(80,-25));
-        System.out.println(Ddd(11,-44));
+        Ddd(26,20);
+        Ddd(31,-20);
+        Ddd(25,44);
+        Ddd(10,8);
+        Ddd(25,77);
 
     }
 
 
      public static String Ddd(int age, int temperature) {
 
-             String.valueOf(age);
-             String.valueOf(temperature);
+
          if(age >= 20 && age <= 45 && temperature >= -20 && temperature <= 30){
              System.out.println("Можно идти гулять");
          } else if(age < 20 && temperature >= 0 && temperature <= 28){
@@ -25,7 +24,7 @@ public class Main {
              System.out.println("Оставайтесь дома");
          }
 
-         return "Age = " + age + " Temperature = " + temperature;
+         return String.valueOf(age)+String.valueOf(temperature);
 
      }
 }
