@@ -2,11 +2,11 @@ import java.lang.String;
 public class Main {
     public static void main(String[] args) {
 
-        Ddd(26,20);
-        Ddd(31,-20);
-        Ddd(25,44);
-        Ddd(10,8);
-        Ddd(25,77);
+         System.out.println(Ddd(26,20));
+        System.out.println(Ddd(31,-20));
+        System.out.println(Ddd(25,44));
+        System.out.println(Ddd(10,8));
+        System.out.println(Ddd(25,77));
 
     }
 
@@ -24,7 +24,7 @@ public class Main {
              System.out.println("Оставайтесь дома");
          }
 
-         return String.valueOf(age)+String.valueOf(temperature);
+         return "Age = " + age   + " "+"Temperature =" + temperature;
 
      }
 }
